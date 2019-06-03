@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextureView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mySurfaceView" />
+
+
+    <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/Shutter"
+            android:src="@drawable/shutter_button"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:gravity="center"
+            android:foregroundGravity="center_vertical|center" />
+</FrameLayout>
